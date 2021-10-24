@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Programar",
+        "tarea": "crear un crudddddd"
+    },
+    {
+        "id": 2,
+        "nombre": "mañana",
+        "tarea": "programar"
+    },
+    {
+        "nombre": "Tarea Actualizada",
+        "tarea": "Tomar gaceosa",
+        "id": 3
+    },
+    {
+        "nombre": "TENGO SUEÑO",
+        "tarea": "DORMIR",
+        "id": 4
+    },
+    {
+        "nombre": "actualizado",
+        "tarea": "ir al baño",
+        "id": 5
+    },
+    {
+        "nombre": "hotoooo",
+        "tarea": "tomar mate amargo ",
+        "id": 8
+    }
+]
