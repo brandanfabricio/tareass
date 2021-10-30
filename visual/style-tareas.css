@@ -1,0 +1,55 @@
+body{
+    background-color: #ccc;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    border: 6px ;
+    border-style: outset ;
+
+
+}
+.crud{
+    border-bottom: 2px solid black;
+    width: 100%;
+    background-color: #fff;
+
+}
+.crud h1 {
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+#guardar{
+    margin-bottom: 10px;
+    width: 180px;
+}
+#update{
+    margin-bottom: 10px;
+    width: 180px;
+
+    
+}
+#guardar:hover{
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+
+
+}
+#update:hover{
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+
+
+}
+label{
+    margin-bottom: 2px;
+}

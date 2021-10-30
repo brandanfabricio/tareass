@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="./style-notas.css">
+    <link rel="stylesheet" href="./style-tareas.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="crud">
+
+            <h1>Tareas</h1>
+
+            <form id="form">
+                <label> Nombre</label>
+                <input type="text" id="nombre"> 
+                <label>Tarea </label>
+                <input type="text" id="tarea"><br>
+                <input type="submit" value="Guardar" id="guardar">
+                <input type="submit" value="actualizar" id="update">
+        
+            </form>
+    
+        </div>
+        
+       
+        <div id="lista-tarea" class="contenedor-lista">
+    
+           
+    
+        <template id="tem-ta">
+            <div class="targeta">
+    
+                <p>Nombre:<strong></strong> Tarea: <b></b> <button class="borrar">borrar</button> <button class="actualizar"> actualizar</button> </p>
+    
+            </div>
+        </template>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+   
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./app.js" type="module"></script> 
+
+</html>
